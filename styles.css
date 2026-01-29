@@ -181,3 +181,51 @@ header h1 {
     .team-grid { gap:20px }
 }
 
+/* Alternate profile page layout (used by Sumana etc) */
+.profile-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.06);
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: #f7f7f7;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin: 0 auto 18px;
+    border: 4px solid #fff;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+.profile-header h1 {
+    font-size: 2rem;
+    color: #0052cc;
+    margin-bottom: 6px;
+    font-weight: 800;
+}
+
+.profile-header .role { color:#666; font-weight:600; letter-spacing:1px }
+
+.profile-section { margin-bottom: 26px }
+.profile-section h2 { font-size:1.1rem; color:#0052cc; margin-bottom:12px; font-weight:700 }
+.profile-section p { color:#555; line-height:1.7 }
+
+.skills-list { display:flex; flex-wrap:wrap; gap:10px }
+.skill-tag { background:#f1f7ff; color:#0052cc; padding:8px 14px; border-radius:6px; font-weight:700; border:1px solid rgba(0,82,204,0.06) }
+
+.btn-back { display:inline-block; padding:12px 22px; background:#0052cc; color:#fff; text-decoration:none; border-radius:6px; font-weight:700 }
+.btn-back:hover { opacity:0.9 }
+
+
